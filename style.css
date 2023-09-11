@@ -1,0 +1,10 @@
+.wrapper{
+    min-height: 100vh;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(3,50px);
+}
+.main__game-cell{
+    border: 3px solid black;
+}
